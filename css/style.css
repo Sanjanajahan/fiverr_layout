@@ -1,0 +1,201 @@
+.container{
+    width: 100%;
+    background-color: #0E0E0F;
+    color: #fff;
+    margin-top: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container .header{
+    text-align: center;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.second-container{
+    width: 1100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .header .advertise{
+    width: 70%;
+    float: left;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 10px;
+    font-family: inherit;
+    font-size: 18px;
+}
+.advertise h2{
+    font-family: monospace;
+}
+.advertise h5{}
+.link a{
+    text-decoration: none;
+    color: #229760fc;
+}
+.link a:hover{
+    color: #fff;
+}
+.link{
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding: 6px;
+    box-sizing: border-box;
+    color: #27a36a;
+    font-size: 17px;
+}
+.list{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #E0E0E0;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+.list ul li{
+}
+.list ul li a{
+    text-decoration: none;
+    padding: 0 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    color: #333333cf;
+}
+.list ul li a:hover{
+    background-color: #4ddd4d8f;
+    border: 2px solid;
+    color: #fff;
+    border-radius: 30px;
+}
+.third-container{
+    box-sizing: border-box;
+    width: 1020px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third-container .display{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.third-container .display h2{
+    padding-top: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.third-container .display span{
+    font-size: 17px;
+    padding-top: 0px;
+}
+.left-nav{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+}
+.left-nav span{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.left-nav span{}
+.left-nav  ul{text-decoration: none;}
+.left-nav  ul li{padding-bottom: 5px;padding-top: 2px;}
+.left-nav  ul li a{
+    text-decoration: none;
+    color: #918291;
+}
+.left-nav  ul li a:hover{
+    background-color: #4ddd4d8f;
+    border: 0px solid;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+.right-display{
+    width: 75%;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+.right-display .information-image{
+    width: 33.33%;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+}
+.information-image img{
+    height: 171px;
+}
+.information-image span{margin-top: 4px;width: 100%;font-size: medium;padding: 2px 0px;}
+.information-image  .img-span{font-size: 14px;}
+.information-image  .img-span span{
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+}
+.information-image  .img-span span a{
+    text-decoration: none;
+    color: #ACADB9;
+    transition-duration: 0.5s;
+}
+.img-span span a:hover{
+    background-color: #4ddd4d8f;
+    border: 0px solid;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+img:hover{opacity: 0.5;transition-duration: 0.5s;}
+.footer .notes{
+    width: 33.33%;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #F0F0F0;
+    padding-top: 50px;
+    margin-top: 55px;
+}
+.notes span{
+    font-size: 20px;
+    font-family: inherit;
+    color: #333333de;
+}
+.notes span strong{}
+.notes h4{
+    font-family: inherit;
+    font-weight: 100;
+    font-size: medium;
+    color: #333333de;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
